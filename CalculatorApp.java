@@ -79,7 +79,7 @@ public class CalculatorApp extends JFrame {
 			return;
 		}
 		if (isLastOperator()) {
-			screenStr = screenStr.substring(0, screenStr.length() - 2);
+			screenStr = screenStr.substring(0, screenStr.length() - 1);
 		} else if (hasOperator()) {
 			return;
 		}
